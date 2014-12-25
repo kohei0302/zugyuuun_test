@@ -22,4 +22,10 @@ ZGN(function()
       console.log('LOW');
     }); // 消灯
   });
+
+  setInterval(function() {
+    gpio.digitalRead(ledPin, function (data){
+      console.log(data);
+    }); // 消灯
+  }, 100);
 });
