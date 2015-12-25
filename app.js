@@ -1,7 +1,7 @@
 ZGN(function()
 {
-  // 19番ピンで動作させます
-  var ledPin = '19';
+  // 17番ピンで動作させます
+  var ledPin = '17';
 
   // TerminalのGPIOインスタンスを取得します
   var gpio = ZGN.term('1').gpio;
